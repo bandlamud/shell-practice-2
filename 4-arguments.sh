@@ -4,8 +4,8 @@ PERSON1=$1
 PERSON2=$2
 PERSON3=$3
 
-echo "lakshmi: Hi Durga how are you"
-echo "Durga: i am good lakshmi where are you now"
-echo "lakshmi: i am in kommi village what about you"
-echo "Durga: i am in bangalore"
-echo "Bharath: i am also in bangalore for studies puropuse"
+echo "$PERSON1: Hi $PERSON2 how are you"
+echo "$PERSON2: i am good $PERSON1 where are you now"
+echo "$PERSON1: i am in kommi village what about you"
+echo "$PERSON2: i am in bangalore"
+echo "$PERSON3: i am also in bangalore for studies puropuse"

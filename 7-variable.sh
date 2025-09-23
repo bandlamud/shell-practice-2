@@ -2,4 +2,4 @@
 
 DATE=$(date)
 
-echo "print the time stamp"
+echo "Timestamp is $DATE"

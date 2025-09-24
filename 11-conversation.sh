@@ -1,9 +1,9 @@
 #!/bin/bash
 
-PERSON1=
-PERSON2=
+PERSON1="Balu"
+PERSON2="Bharath Kumar"
 
-echo "Ramesh:: Hi surech how are you"
-echo "Suresh:: Hi Ramesh and good what abo you"
-echo "Ramesh:: i am also good suresh waht are you learning now"
-echo "Suresh:: i am learning shell scripting"
+echo "$PERSON1:: Hi surech how are you"
+echo "$PERSON2:: Hi $PERSON1 and good what abo you"
+echo "$PERSON1:: i am also good $PERSON2 waht are you learning now"
+echo "$PERSON2:: i am learning shell scripting"

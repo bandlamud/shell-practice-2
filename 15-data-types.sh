@@ -7,8 +7,9 @@ SUM=$(($NUMBER1+$NUMBER2))
 
 echo "sum is ${SUM}"
 
-Leaders=("Modi","Gandhi","Ambedkar")
+LEADERS=("Modi","Gandhi","Ambedkar")
 
-echo "ALL leaders: ${Leaders[@]}"
-echo "First leaders: ${Leaders[1]}"
+
+echo "All leaders: ${LEADERS[@]}"
+echo "First Leader: ${LEADERS[0]}"
 

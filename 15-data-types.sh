@@ -10,4 +10,6 @@ echo "sum is ${SUM}"
 Leaders=("Modi","Gandhi","Ambedkar")
 
 echo "ALL leaders is ${Leaders[@]}"
-echo "ALL leaders is ${Leaders[1]}"
+echo "First leaders is ${Leaders[1]}"
+
+

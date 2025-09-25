@@ -29,3 +29,4 @@ if [ $? -ne 0 ]; then
     exit 1
 else
     echo "ERROR:: installing python3 is success"
+fi

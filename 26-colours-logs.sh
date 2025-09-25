@@ -39,7 +39,7 @@ else
     echo -e "nginx already installed.. $Y SKIPPING $N"
 fi
 
-dnf lis installed  python3
+dnf list installed  python3
 # install is not found
 if [ $? -ne 0 ]; then
     dnf install python3 -y

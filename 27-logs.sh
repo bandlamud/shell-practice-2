@@ -11,7 +11,7 @@ SCRIPT_NAME="$( echo $0 | cut -d "." -f1 )"
 LOG_FILE="$LOG_FOLDER/$SCRIPT_NAME.log"
 
 mkdir -p $LOG_FOLDER
-echo "Script execution time is: $(date)"
+echo "Script execution time is: $(date)" | tee -a $LOG_FILE
 
 if [ $USERID -ne 0 ]; then
     echo "ERROR:: Please run the script with root privilages"

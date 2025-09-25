@@ -4,11 +4,13 @@ USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
     echo "ERROR:: Please run the script with root privilages"
+    exit 1
 fi
 
 dnf install mysql -y
 if [ $? -ne 0 ]; then
     echo "ERROR:: installing mysql is failure"
+    exit 1
 else
     echo "instaling mysql is success"
 fi

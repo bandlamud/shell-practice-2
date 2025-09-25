@@ -15,3 +15,22 @@ if [ $? -ne 0 ]; then
 else
     echo "installing mysql is success"
 fi
+
+dnf install nginx -y
+
+if [ $? -ne 0 ]; then
+    echo "ERROR:: installing NGINX failure"
+    exit 1
+else
+    echo "installing NGINX is success"
+fi
+
+dnf install mysql -y
+
+if [ $? -ne 0 ]; then
+    echo "ERROR:: installing python3 failure"
+    exit 1
+else
+    echo "installing PYTHON3 is success"
+fi
+

@@ -5,4 +5,4 @@ G=\e[32m
 Y=\e[33m
 
 echo -e "$R Hello World"
-check this colour
+echo "check this colour"
